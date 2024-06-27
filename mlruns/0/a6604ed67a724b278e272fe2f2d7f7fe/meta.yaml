@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Git/DeepLearning_Classification/mlruns/0/a6604ed67a724b278e272fe2f2d7f7fe/artifacts
+end_time: 1719473672276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a6604ed67a724b278e272fe2f2d7f7fe
+run_name: abundant-ant-810
+run_uuid: a6604ed67a724b278e272fe2f2d7f7fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719473659491
+status: 3
+tags: []
+user_id: ASUS

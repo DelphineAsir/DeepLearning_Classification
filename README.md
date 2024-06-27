@@ -74,7 +74,6 @@ python script.py
 Run this to export as env variables:
 
 ```bash
-
 export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
 
 export MLFLOW_TRACKING_USERNAME=entbappy 
