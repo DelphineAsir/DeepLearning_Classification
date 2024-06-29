@@ -55,7 +55,7 @@ class Evaluation:
         save_json(path=Path("scores.json"), data=scores)
 
     
-    def log_into_mlflow(self):        
+    def log_into_mlflow(self):          
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
@@ -74,3 +74,5 @@ class Evaluation:
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")
+        tf.keras.backend.clear_session()
+      
